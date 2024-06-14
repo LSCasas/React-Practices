@@ -8,9 +8,9 @@ export default function Menu() {
     ];
 
     return (
-        <aside id="menu">
+        <aside className="cols-start-1 cols-end-2 rows-start-2 rows-end-3">
             {menuItems.map((item) => (
-                <div key={`menu-item-${item.text}`} className="menu-item">
+                <div key={`menu-item-${item.text}`} className="p-4 rounded-2xl flex flex-row gap-2 items-center hover:bg-gray-800">
                     <span>{item.icon}</span>
                     <span>{item.text}</span>
                 </div>
@@ -18,5 +18,6 @@ export default function Menu() {
         </aside>
     );
 }
+
 
 
