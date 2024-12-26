@@ -9,7 +9,7 @@ export default function Video({ image, title, channel }) {
             <footer className="grid gap-2 grid-cols-12">
                 <div className="col-span-2">
                     <img
-                        src={`https://api.dicebear.com/8.x/identicon/svg?seed=${channel}`}
+                        src={`https://api.dicebear.com/9.x/thumbs/svg?seed=${channel}`}
                         alt=""
                         className="rounded-full"
                     />
